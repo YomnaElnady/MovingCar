@@ -72,7 +72,7 @@ def draw():
     glTranslate(x + 2.5, -2.5 * 0.25, -2.5 * 0.5)
     glRotatef(angle, 0, 0, 1)
     glutWireTorus(0.125, 0.5, 12, 8)
-# hidden torus..
+# hidden Torus..
 #   glLoadIdentity()
 #   glColor3f(0, 0, 1)
 #   glTranslate(x - 2.5, -2.5 * 0.25, -2.5 * 0.5)
@@ -95,7 +95,7 @@ def draw():
 
 glutInit()
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB)
-glutCreateWindow(b"cube")
+glutCreateWindow(b"car")
 glutInitWindowSize(500,500)
 myInit()
 glutDisplayFunc(draw)
